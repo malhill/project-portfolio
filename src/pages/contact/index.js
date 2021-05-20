@@ -1,12 +1,14 @@
 import React from 'react';
 import resume from './techresume.pdf'
 import image from './contactimage.jpg'
+import './index.css';
+
 export default function Contact() {
 
   return (
-  <div>
+  <div className='page-height'>
 
-    <h1 className="contact" style={{ textAlign: 'center' }}>Contact Me!</h1>
+    <h1 className="welcome text-center my-3 ">Contact Me!</h1>
 
     <div className="container">
 

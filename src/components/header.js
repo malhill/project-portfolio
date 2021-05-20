@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import './header.css';
 
 export default function Header() {
   const location = useLocation();
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg navbar-color">
 
       <div className="container-fluid">
         <button
@@ -18,20 +19,20 @@ export default function Header() {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a className="navbar-brand" href="index.html">Malcolm&lsquo;s Portfolio</a>
+        <div className="collapse navbar-collapse navbar-brand" id="navbarTogglerDemo01">
+          <h1 className="title"> Malcolm&lsquo;s Portfolio </h1>
         </div>
 
         <div>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link'}>Home</Link>
+              <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link text-white'}>Home</Link>
             </li>
             <li className="nav-item">
-              <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link'}>Project</Link>
+              <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link text-white'}>Project</Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link'}>Contact</Link>
+              <Link to="/contact" className={location.pathname === '/contact' ? 'nav-link active' : 'nav-link text-white'}>Contact</Link>
             </li>
           </ul>
         </div>

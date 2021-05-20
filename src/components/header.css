@@ -1,0 +1,13 @@
+.navbar-color {
+    background-color: #6EB3C3;
+}
+
+.active {
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+
+.title {
+    color: #fff;
+    font-size: 2rem;
+}

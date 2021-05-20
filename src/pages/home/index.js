@@ -5,8 +5,8 @@ import './index.css';
 
 export default function Home() {
   return (
-    <div style={{ height:"90vh" }} >
-      <h1 className="text-center mt-5">Welcome!</h1>
+    <div className='page-height' >
+      <h1 className="text-center my-3 welcome">Welcome!</h1>
 
       <section className="container card w-50" id="biocard">
         <div className="row card-row col-sm">

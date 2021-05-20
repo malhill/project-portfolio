@@ -8,9 +8,9 @@ import filler from '../../assets/Projectimage.jpg'
 export default function Portfolio() {
   return (
 
-    <div className="text-center" style= {{ height:"90vh" }} >
+    <div className="text-center page-height" >
 
-      <h1 className="projects">Projects!</h1>
+      <h1 className="welcome my-3 ">Projects!</h1>
 
       <h2 className="text-center">Select one of the 3 projects below to view the live applications:</h2>
 
@@ -19,19 +19,19 @@ export default function Portfolio() {
           
           <div className="col-4" >
             <a href="https://malhill.github.io/Calendar/" title="Calender Project">
-              <img className="w-100" src={project1} />
+              <img style={{ height:"230px" }} src={project1} />
             </a>
           </div>
 
           <div className="col-4">
             <a href="https://malhill.github.io/getty-gallery/" title="Team Project">
-              <img className="w-100" style={{ height:"100%" }} src={project2} />
+              <img  style={{ height:"230px" }} src={project2} />
             </a>
           </div>
 
           <div className="col-4">
             <a href="https://malhill.github.io/Weather-Dashboard/" title="Weather Project">
-              <img className="w-100" src={project3} />
+              <img style={{ height:"230px" }} src={project3} />
             </a>
           </div>
 
