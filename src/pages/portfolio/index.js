@@ -60,10 +60,6 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <picture>
-        <img src={filler} className='w-50' title='More projects coming soon!' id='projectimage' />
-      </picture>
-
     </div>
 
   );

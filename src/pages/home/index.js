@@ -12,18 +12,20 @@ export default function Home() {
         <div className="row card-row col-sm">
           <div className="col">
             <section>
-              <div className="card-img-top ">
+              <div className="card-img-top mb-3">
                 <img src={BioImage} width="300" height="300" alt="Bio Image" />
               </div>
-
+ 
               <h5 className="card-title" id="BioCardName">
                 Malcolm Hill
               </h5>
 
               <ul>
-                <li>Nutrition Counseling</li>
-                <li>Sport Specific Programming</li>
-                <li>Full Stack Programmer</li>
+                <li>Languages + Technologies Known: HTML, CSS, JS, Web API's, Node.js </li>
+                <li>Currently Learning: Ionic, Next.js, Python</li>
+                <li>Frameworks: React.js, Express, Boostrap</li>
+                <li>Databases: Mongo with Mongoose, MySQL with Sequelize</li>
+                <li>Deployed to GitHub and Heroku</li>
               </ul>
             </section>
           </div>
@@ -32,6 +34,12 @@ export default function Home() {
             <div>
               <div>
                 <p className="card-body">
+                  Hi, my name is Malcolm,
+                  <br></br>
+                  <br></br>
+
+                  <br></br>
+                  <br></br>
                   Assets: Through patience, organization, and maintaining a
                   progressive mindset I am capable of handling several
                   objectives. While working directly with clients in pursuit of
@@ -43,6 +51,12 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className='row'>
+          <a className='text-center' href='https://github.com/malhill'>
+            Click me, for GitHub Repository
+          </a>
         </div>
       </section>
     </div>

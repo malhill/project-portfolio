@@ -20,13 +20,13 @@ export default function Header() {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse navbar-brand " id="navbarTogglerDemo01">
-          <Link className='title active text-decoration-none' to='/'> Malcolm&lsquo;s Portfolio </Link>
+          <Link className='title text-decoration-none' to='/'> Malcolm&lsquo;s Portfolio </Link>
         </div>
 
         <div>
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link to="/" className={location.pathname === '/home' ? 'nav-link active' : 'nav-link text-white'}>Home</Link>
+              <Link to="/" className={location.pathname === '/' ? 'nav-link active' : 'nav-link text-white'}>Home</Link>
             </li>
             <li className="nav-item">
               <Link to="/portfolio" className={location.pathname === '/portfolio' ? 'nav-link active' : 'nav-link text-white'}>Project</Link>
