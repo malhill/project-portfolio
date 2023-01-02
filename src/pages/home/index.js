@@ -40,13 +40,7 @@ export default function Home() {
 
                   <br></br>
                   <br></br>
-                  Assets: Through patience, organization, and maintaining a
-                  progressive mindset I am capable of handling several
-                  objectives. While working directly with clients in pursuit of
-                  their goals, creativity stands out as my strongest attribute.
-                  I am fully capable of handling many diverse situations and
-                  clients. Currently seeking to further my career in web
-                  development!
+                  Assets: Through patience, organization, and maintaining a progressive mindset; handling several objectives is normal in day to day project building. When working with clientele, creativity stands out as my strongest attribute. I am fully capable of handling many diverse situations and clients. Currently seeking to further my career in full stack and mobile development!
                 </p>
               </div>
             </div>
